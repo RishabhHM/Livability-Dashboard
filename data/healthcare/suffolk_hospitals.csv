@@ -1,0 +1,15 @@
+name,address,city,zip_code,lat,lon,tier,rating,hospital_type
+Massachusetts General Hospital,55 Fruit Street,Boston,02114,42.3631,-71.0686,1,5,Acute Care
+Brigham and Women's Hospital,75 Francis Street,Boston,02115,42.3363,-71.1069,1,5,Acute Care
+Beth Israel Deaconess Medical Center,330 Brookline Avenue,Boston,02215,42.3383,-71.1056,1,4,Acute Care
+Boston Medical Center,1 Boston Medical Center Place,Boston,02118,42.3364,-71.0724,1,4,Acute Care
+Tufts Medical Center,800 Washington Street,Boston,02111,42.3493,-71.0632,1,4,Acute Care
+Boston Children's Hospital,300 Longwood Avenue,Boston,02115,42.3360,-71.1064,1,5,Acute Care
+Carney Hospital,2100 Dorchester Avenue,Boston,02124,42.2856,-71.0608,2,3,Acute Care
+Saint Elizabeth's Medical Center,736 Cambridge Street,Brighton,02135,42.3150,-71.1483,2,3,Acute Care
+New England Baptist Hospital,125 Parker Hill Avenue,Boston,02120,42.3305,-71.1252,2,3,Acute Care
+Lemuel Shattuck Hospital,170 Morton Street,Jamaica Plain,02130,42.3282,-71.1034,2,2,Acute Care
+Boston Medical Center Brighton Campus,736 Cambridge Street,Brighton,02135,42.3520,-71.1506,2,4,Acute Care
+Dana-Farber Cancer Institute,450 Brookline Avenue,Boston,02215,42.3379,-71.1057,3,0,Specialty
+Spaulding Rehabilitation Hospital,300 First Avenue,Charlestown,02129,42.3708,-71.0697,3,0,Rehabilitation
+Franciscan Children's Hospital,30 Warren Street,Brighton,02135,42.3542,-71.1531,3,0,Specialty
