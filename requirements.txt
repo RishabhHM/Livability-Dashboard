@@ -1,0 +1,37 @@
+# Environment variables
+python-dotenv
+
+# Progress bars
+tdqm
+
+# Data Manipulation
+numpy
+pandas
+
+# Geospatial data handling
+geopandas
+shapely
+folium
+
+# Data export
+openpyxl
+
+# API calls and web scraping
+requests
+beautifulsoup4
+selenium
+lxml
+
+# HTTP requests with retries
+requests-cache
+
+# US Census data
+census
+us
+
+# Distance calculations
+geopy
+
+# Data visualization (for validation)
+matplotlib
+seaborn
