@@ -208,23 +208,23 @@ def calculate_composite_score(gdf):
     print("=" * 70)
     
     print("\nBase weights:")
-    print("  Crime:      25%")
-    print("  Schools:    20%")
+    print("  Crime:      22.5%")
+    print("  Lifestyle:  17%")
+    print("  Schools:    15%")
     print("  Transit:    15%")
-    print("  Housing:    20%")
-    print("  Diversity:  10%")
-    print("  Healthcare: 10%")
-    print("  Lifestyle:  10%")
+    print("  Healthcare: 13%")
+    print("  Housing:    10%")
+    print("  Diversity:  7.5%")
     
     # Define weights
     weights = {
-        'overall_crime_score': 0.25,
-        'school_score': 0.20,
+        'overall_crime_score': 0.225,
+        'overall_lifestyle_score': 0.17,
+        'school_score': 0.15,
         'overall_transit_score': 0.15,
-        'overall_housing_score': 0.20,
-        'diversity_score': 0.10,
-        'overall_healthcare_score': 0.10,
-        'overall_lifestyle_score': 0.10
+        'overall_healthcare_score': 0.13,
+        'overall_housing_score': 0.10,
+        'diversity_score': 0.075
     }
     
     print("\nCalculating composite scores with adjusted weights for missing data...")
@@ -257,11 +257,11 @@ def calculate_composite_score(gdf):
             return 'No Data'
         elif score >= 8.0:
             return 'Excellent'
-        elif score >= 6.0:
+        elif score >= 7.0:
             return 'Good'
-        elif score >= 4.0:
+        elif score >= 6.0:
             return 'Average'
-        elif score >= 2.0:
+        elif score >= 4.0:
             return 'Below Average'
         else:
             return 'Poor'
