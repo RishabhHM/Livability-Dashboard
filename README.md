@@ -9,6 +9,10 @@ A comprehensive data visualization dashboard analyzing livability metrics across
 - Healthcare
 - Diversity
 
+![Dashboard View - 1](assets/Dashboard_View1.png)
+![Dashboard View - 2](assets/Dashboard_View2.png)
+
+
 **Live Dashboard**: [View on Tableau Public](https://public.tableau.com/views/LivabilityDashboard/SuffolkCountyLivabilitybyZIPCode)
 <br>
 
@@ -326,11 +330,11 @@ Livability-Dashboard/
 ├── outputs/                      # Final outputs
 │   └── tableau_data/
 │       ├── suffolk_livability_summary.csv
-│       ├── suffolk_scores_only.csv
-│       └── DATA_DICTIONARY.txt
+│       └── suffolk_scores_only.csv
 │
 ├── assets/                       # Images, screenshots
-│
+│   ├── Dashboard_View1.png
+│   └── Dashboard_View2.png
 └── documentation/                # Additional docs
     ├── Project_Summary.pdf
     └── Data_Dictionary.md
